@@ -12,7 +12,7 @@ export const ENVIRONMENT = {
 export const SERVER = {
     'PORT_HTTP': 80,
     'PORT_HTTPS': 443,
-    'HOSTNAME': (ENVIRONMENT.PRODUCTION) ? '0.0.0.0' : '127.0.0.1',
+    'HOSTNAME': (ENVIRONMENT.PRODUCTION) ? '0.0.0.0' : '0.0.0.0',
     'IP_ADDRESS': '0.0.0.0',
     'VIEW_ENGINE': 'ejs',
 };
