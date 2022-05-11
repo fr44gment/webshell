@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+        "esModuleInterop": true,
+        "target": "es2017",
+        "module": "esnext",
+        "noImplicitAny": true,
+        "moduleResolution": "node",
+        "experimentalDecorators": true,
+        "sourceMap": false,
+        "outDir": "dist",
+        "baseUrl": "./src",
+        "paths": {
+            "*": ["./node_modules/*"],
+        },
+    },
+    "include": ["src/**/*"],
+}
