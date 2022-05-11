@@ -6,7 +6,7 @@
     "scripts": {
         "clean": "rm -rf ./dist/*",
         "typescript": "tsc",
-        "server": "NODE_ENV=production node --trace-warnings ./dist/server/app.js",
+        "server": "NODE_ENV=production node --trace-warnings ./server/app.js",
         "start": "npm-run-all clean --serial typescript --parallel development",
         "development": "node --trace-warnings ./dist/app.js"
     },
